@@ -1,0 +1,137 @@
+
+
+.bg-light-2{
+    background: #f5f5f5;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+
+#home{
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#home .container-right{
+    padding-top: 3rem;
+}
+.image-container{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: .5s;
+    position: relative;
+    left: 13%;
+}
+#home .container-left , #home .container-right{
+    margin-top: 5rem;
+}
+.container-left h1{
+    font-size: 1.5rem;
+}
+/* .image-container:hover img{
+    transform: scale(1.1);
+} */
+.profile-pic:hover{
+    transform: scale(1.1);
+}
+.container-left .btn-outline-primary:hover a{
+    color: #fff;
+}
+.container-right .name{
+    transform: translateX(-15%);
+    position: relative;
+    width: 100%;
+    
+}
+.name{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1174px){
+    .name{
+        left: 5%;
+        position: relative;
+    }
+}
+@media screen and (max-width: 974px){
+    .name{
+        left: 10%;
+        position: relative;
+    }
+}
+@media screen and (max-width: 803px){
+    .name{
+        left: 20%;
+        position: relative;
+    }
+    .container-left p{
+        font-size: .7rem;
+    }
+    .container-left h1{
+        font-size: 1rem;
+    }
+    #home .container-left{
+        margin-top: 6rem;
+    }
+    .container-right .name{
+        font-size: 1.5rem;
+    }
+    .container-right img{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top: 15%;
+        left: 20%;
+    }
+}
+@media screen and (max-width: 705px){
+    .container-right .name{
+        left: 25%;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 659px){
+    .container-right .name{
+        left: 28%;
+        position: relative;
+    }
+}
+@media screen and (max-width: 610px){
+    .container-right .name{
+        left: 35%;
+        position: relative;
+        
+    }
+}
+@media screen and (max-width: 573px){
+    .container-right .name{
+        left: 40%;
+        position: relative;
+    }
+}
+@media screen and (max-width: 469px){
+    .container-right .name{
+        left: 50%;
+        position: relative;
+    }
+}
+@media screen and (max-width: 678px){
+    .container-left .view-on{
+        display: none;
+    }
+}
